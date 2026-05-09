@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git branch:'main' url:'https://github.com/AdityaK05/maven.git'
+                git branch:'main' , url:'https://github.com/AdityaK05/maven.git'
             }
         }
 
